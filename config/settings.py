@@ -3,7 +3,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-pos-development-key-change-before-deployment"
 DEBUG = True
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "testserver"]
+ALLOWED_HOSTS = [ "posmanagement-iota.vercel.app","localhost", "127.0.0.1", "testserver"]
 
 INSTALLED_APPS = [
     "django.contrib.auth",
